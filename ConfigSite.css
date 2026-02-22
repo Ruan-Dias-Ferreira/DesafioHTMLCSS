@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*para tirar margem branca*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: verdana, sans-serif;
+}
+article.androidVersionList ul{
+  list-style: none;
+  columns: 2;
+}
+article.android-list li.done {
+  text-decoration: line-through;
+}
+h1.TítuloPrincipal{
+  text-align: center;
+  color: #d7f6d7;
+  height: 100px;
+text-shadow: #222222 0px 0px 3px;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+h2.subtituloPrincipal{
+  text-align: center;
+  color: #d7f6d7;
+  height: 60px;
+  text-spacing: auto;
+  text-shadow: #222222 0px 0px 3px;
+}
+header.cabecalho{
+  background-image: linear-gradient(to top, #004d00, #009b00);
+  margin: 0px;
+}
+nav.navegacao a{
+  color: #a2f1a2;
+  text-decoration: none;
+padding: 10px;
+  transition: 0.3s;
+  border-radius: 12px;
+}
+.navegacao a:hover{
+  color: #efefef;
+  background: #004d00;
+  box-shadow: #222222 0px 0px 3px;
+}
+main{
+  background-color: beige;
+  text-align:justify;
+}
+section.conteudo{
+  background-color: white;
+  width:90%;
+  margin:auto;
+  box-shadow: rgba(0, 0, 0, 0.46) 0px 0px 5px;
+  padding: 25px;
+}
+/*para evitar das imagens sobressairem*/
+.conteudo img{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+.conteudo p{
+  text-indent:30px;
+}
+h1.TítuloNotícia{
+  color: #004600;
+  margin-bottom: 20px;
+}
+h1.titulointrodução{
+  color:#004600 ;
+  text-size-adjust: 80%;
+  background-image: linear-gradient(to right,#cdffcd,white);
+}
+h1.titulodesenvolvimento{
+  color:#004600 ;
+  text-size-adjust: 80%;
+  background-image: linear-gradient(to right,#cdffcd,white);
+}
+/*config video precisa colocar dentro de um bloco div*/
+.video{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;/*16:9*/
+  height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: #222222 0px 0px 5px;
+  background: #004d00;
+
+}
+.video > iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+article.androidVersionList{
+  background-color: #a2f1a2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #222222 0px 0px 5px;
+}
+article.androidVersionList h1 {
+  background: darkgreen;
+  color: white;
+  padding: 10px;
+
+  margin: -20px -20px 15px -20px;
+}
+
+.footer{
+  background-color: #222222;
+  text-align: center;
+  color: white;
+}
+
+/*espaçamento vertical*/
+.conteudo article {
+  margin-bottom: 35px;
+}
+
+.conteudo p {
+  margin-bottom: 15px;
+  line-height: 2;
+}
